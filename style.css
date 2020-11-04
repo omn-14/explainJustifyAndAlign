@@ -1,0 +1,65 @@
+:root {
+    --letra: #F7B538; 
+    --div: #DB7C26; 
+    --borda: #D8572A; 
+    --fundo: #C32F27; 
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+    background-color: var(--div);
+}
+
+body {
+    display: grid;
+}
+
+.square {
+    width: 30%;
+    height: 30%;
+
+    text-align: center;
+
+    border: .2rem solid var(--borda);
+
+    background-color: var(--fundo);
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: -.017rem;
+    color: var(--letra);
+}
+
+.just-0 {
+    justify-items: start;
+}
+
+.just-1 {
+    justify-items: center;
+}
+
+.just-2 {
+    justify-items: end;
+}
+
+.align-0 {
+    align-items: start;
+}
+
+.align-1 {
+    align-items: center;
+}
+
+.align-2 {
+    align-items: end;
+}
+
