@@ -18,6 +18,8 @@ function mover(event) {
 
     just = verificar(just);
     align = verificar(align);
+    console.log(just);
+    console.log(align);
     
     colocarClasses(just, align);
     alterarTexto(just, align);
@@ -26,9 +28,13 @@ function mover(event) {
 function verificar(value) {
     if(value<0) return 0;
     if(value>2) return 2;
+    return value
 }
 
 function colocarClasses(just, align) {
+    // console.log(just, align);
+    // console.log(pos[just]);
+    // console.log(pos[align]);
     body.classList = '';
     body.classList.add(`just-${pos[just]}`);
     body.classList.add(`align-${pos[align]}`);
