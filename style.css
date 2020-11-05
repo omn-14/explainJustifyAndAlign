@@ -39,27 +39,27 @@ body {
     color: var(--letra);
 }
 
-.just-0 {
+.just-start {
     justify-items: start;
 }
 
-.just-1 {
+.just-center {
     justify-items: center;
 }
 
-.just-2 {
+.just-end {
     justify-items: end;
 }
 
-.align-0 {
+.align-start {
     align-items: start;
 }
 
-.align-1 {
+.align-center {
     align-items: center;
 }
 
-.align-2 {
+.align-end {
     align-items: end;
 }
 
