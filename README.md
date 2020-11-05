@@ -1,7 +1,7 @@
 # creating the html
 
 - [x] create a div to be your little square
-- [-] put 2 `<p>` tags to put your texts
+- [x] put 2 `<p>` tags to put your texts
 
 # creating the css
 
