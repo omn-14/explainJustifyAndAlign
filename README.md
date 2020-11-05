@@ -21,4 +21,3 @@
 
 - [x] to be honest this part is very simple, you just have to make a function that add on your body tag the classes that you made on css
 - [x] a important thing is reset all classes and add only the class that you want
-- [] it is to remember me to do the code more semantic tomorrow 
